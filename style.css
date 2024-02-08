@@ -144,6 +144,22 @@ header{
 .profile{
     animation: scaleImg 1s ease forwards;
 }
+.skills-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 80%;
+    height: 70%;
+    background-color: #232933;
+    border-radius: 1em;
+    padding: 2em;
+}
 @keyframes slideBottom {
     from{
         transform: translateY(-100px);
