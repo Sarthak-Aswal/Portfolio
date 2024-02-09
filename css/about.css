@@ -1,0 +1,15 @@
+.about-content{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-size: 2rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 80%;
+    background-color: #232933;
+    border-radius: 1em;
+    padding: 2em;
+    border: 2px solid #1ef;
+    box-shadow: 0 0 10px #1ef;
+}

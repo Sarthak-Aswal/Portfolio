@@ -1,0 +1,58 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    padding: 0.6em 1.5em;
+    background-color: #1f242d;
+    width: 100%;
+    font-weight: 500;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+.navbar a{
+    color: #FFFFFF;
+
+}
+
+.navlink{
+    transition: all 1.25s ;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    
+    
+}
+.navlink:nth-child(1){
+    animation-delay: 0.1s;
+}
+.navlink:nth-child(2){
+    animation-delay: 0.3s;
+}
+.navlink:nth-child(3){
+    animation-delay: 0.5s;
+}
+.navlink:nth-child(4){
+    animation-delay: 0.7s;
+}
+.navlink:hover{
+    scale: 1.1;
+    
+    border-bottom: 3px solid white;
+}
+
+header{
+    position: sticky;
+    top: 0px;
+    background-color: #1f242d;
+    z-index: 1;
+}
+.logo{
+    animation: slideRight 1s ease forwards;
+}
